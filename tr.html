@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../srctr/css/tr.css">
+</head>
+<body>
+  <main>
+    <section id="login">
+      <div class="container">
+        <h1>Agent Registration</h1>
+        <h3>Profile Information</h3>
+        <div class="row">
+          <div class="left">
+            <form class="left-form-control">
+              <h3>Agency Name*</h3>
+            <input type="text" />
+            <h3>Address*</h3>
+            <input type="text" />
+            <h3>Toll-Free Number*</h3>
+            <input type="tel" />
+            <h3>Company Name*</h3>
+            <input type="text" />
+
+            </form>
+          </div>
+          <div class="center">
+            <form class="center-form-control">
+              <h3>Agency Type*</h3>
+            <select name="category" id="category">
+              <option>Growth Marketing Agency</option>
+              <option>Advertising Agency</option>
+              <option>Social Media Agency</option>
+              <option>Branding Agency</option>
+              <option>Public Relations (PR) Agency</option>
+            </select>
+            <div class="city-state-container">
+              <div>
+                <h3>City*</h3>
+                <input type="text" />
+              </div>
+              <div>
+                <h3>State*</h3>
+                <input type="text" />
+              </div>
+            </div>
+            <h3>Email ID*</h3>
+            <input type="email" />
+            <h3>Office Space</h3>
+            <div class="radio-container">
+                <label class="owned radio-box">
+                  <input type="radio" name="own"/>
+                  <span>Owned</span>
+                </label>
+                <label class="rental radio-box">
+                  <input type="radio" name="own"/>
+                  <span>Rental</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="right">
+            <form class="right-form-control">
+              <h3>Password*</h3>
+            <input type="password" 
+            required
+            minlength="8"
+            maxlength="12"/>
+            <h3>Telephone Number*</h3>
+            <input type="tel"/>
+            <h3>Website*</h3>
+            <input type="text" />
+            <div class="file-container">
+              <h3>Company Logo*</h3>
+              <input accept="*" type="file" name="file" class="file-input"/>
+            </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
